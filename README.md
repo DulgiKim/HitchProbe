@@ -1,3 +1,5 @@
+<p align="center"><img src="media/logo.png" width="160" alt="HitchProbe logo"></p>
+
 # HitchProbe
 
 **What just froze my game?** HitchProbe watches every frame. When one takes too long, it records which addon used the time, what happened just before (quest turn-in, party invite, addon messages, ...) and whether you were in combat, moving, in a group or had the map open. Big hitches pop up on screen right away with the cause and the frame time.

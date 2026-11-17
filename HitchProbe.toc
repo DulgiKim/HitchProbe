@@ -7,6 +7,7 @@
 ## Author: DulgiKim
 ## Category: Development Tools
 ## X-License: GPL-3.0
+## IconTexture: Interface\AddOns\HitchProbe\icon.png
 ## AddonCompartmentFunc: HitchProbe_OnAddonCompartmentClick
 ## AddonCompartmentFuncOnEnter: HitchProbe_OnAddonCompartmentEnter
 ## AddonCompartmentFuncOnLeave: HitchProbe_OnAddonCompartmentLeave

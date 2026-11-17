@@ -153,8 +153,12 @@ local function Create()
     local pos = Core.DB().position
     if pos then frame:SetPoint(pos[1], UIParent, pos[2], pos[3], pos[4]) else frame:SetPoint("CENTER") end
 
+    local icon = frame:CreateTexture(nil, "OVERLAY")
+    icon:SetTexture(ns.ICON)
+    icon:SetSize(22, 22)
+    icon:SetPoint("TOPLEFT", 12, -9)
     local title = frame:CreateFontString(nil, "OVERLAY", "GameFontNormalLarge")
-    title:SetPoint("TOPLEFT", 14, -12)
+    title:SetPoint("LEFT", icon, "RIGHT", 6, 0)
     local version = (C_AddOns and C_AddOns.GetAddOnMetadata or GetAddOnMetadata)(ADDON_NAME, "Version") or ""
     title:SetText(L.TITLE .. " |cff888888" .. version .. "|r")
     local close = CreateFrame("Button", nil, frame, "UIPanelCloseButton")

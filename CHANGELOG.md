@@ -8,6 +8,7 @@
 - Window with a summary (causes by addon, most common preceding events) and the last 100 hitches; record and alert thresholds, alert on/off and chat output can be set there.
 - Group events (party invite, joining a group, roster changes, addon messages with their prefix) are tracked.
 - Copy report button for bug reports.
+- Addon icon (addon list, addon compartment, window title and on-screen alert).
 - English and Korean.
 
 ### 한국어
@@ -16,4 +17,5 @@
 - 요약(애드온별 원인, 자주 나온 직전 이벤트)과 최근 100개 기록을 보여 주는 창. 기록 기준, 알림 기준, 알림 켜기/끄기, 채팅 출력을 여기서 바꿀 수 있습니다.
 - 파티 이벤트(파티 초대, 파티 참가, 구성원 변경, 접두어가 붙은 애드온 메시지)를 추적합니다.
 - 버그 제보용 리포트 복사 버튼
+- 애드온 아이콘 (애드온 목록, 애드온 메뉴, 창 제목, 화면 알림)
 - 영어와 한국어 지원

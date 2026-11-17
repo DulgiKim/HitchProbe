@@ -3,6 +3,9 @@ local ADDON_NAME, ns = ...
 local L = {}
 ns.L = L
 
+-- The addon icon (64x64 PNG). Written with its extension: PNG files are only found that way.
+ns.ICON = "Interface\\AddOns\\HitchProbe\\icon.png"
+
 -- English defaults
 L.TITLE = "HitchProbe"
 L.LOADED = "loaded. Type /hitch to open."
