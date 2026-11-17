@@ -1,0 +1,18 @@
+## Interface: 16001
+## Title: HitchProbe
+## Title-koKR: HitchProbe (프레임 드랍 원인 찾기)
+## Notes: Finds what causes frame hitches: records slow frames with the addon that used the time and the events just before, and shows big hitches on screen.
+## Notes-koKR: 프레임 드랍의 원인을 찾습니다. 느린 프레임마다 시간을 쓴 애드온과 직전 이벤트를 기록하고, 큰 프레임 드랍은 화면에 바로 알려 줍니다.
+## Version: 1.0.0
+## Author: DulgiKim
+## Category: Development Tools
+## X-License: GPL-3.0
+## AddonCompartmentFunc: HitchProbe_OnAddonCompartmentClick
+## AddonCompartmentFuncOnEnter: HitchProbe_OnAddonCompartmentEnter
+## AddonCompartmentFuncOnLeave: HitchProbe_OnAddonCompartmentLeave
+## SavedVariables: HitchProbeDB
+
+Locale.lua
+Core.lua
+Alert.lua
+UI.lua
